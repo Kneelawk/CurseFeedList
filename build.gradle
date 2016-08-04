@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+version = '0.0.1-SNAPSHOT'
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	compile 'com.mashape.unirest:unirest-java:1.4.9'
+	compile 'com.google.guava:guava:19.0'
+	compile 'org.apache.commons:commons-compress:1.12'
+}
